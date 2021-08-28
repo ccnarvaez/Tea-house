@@ -1,8 +1,6 @@
 import { OrderItems } from "../components/OrderItems";
 
 
-
-
 export const MenuGrid = ( { id, item, price, img }) => {
     
     return(  
