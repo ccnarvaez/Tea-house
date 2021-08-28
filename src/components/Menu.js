@@ -1,11 +1,19 @@
 import { data } from "../data/menu";
 import { MenuGrid } from "../views/MenuGrid";
+import { useState } from "react";
+
 
 
 
 export const Menu = () => {
 
+
+    const [order, setOrder] = useState([]);
+    
+   
+
     return(
+    <>
 
         <div className = "wrapper"> 
             { data.map( elem => (
@@ -14,6 +22,10 @@ export const Menu = () => {
 
             ))};
         </div> 
+
+        <div> { order } </div>
+          
+    </>
     )
 };
 

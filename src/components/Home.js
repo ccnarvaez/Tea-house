@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Menu } from "../components/Menu";
 
 
-
 export const Home = () => {
     const [  menu, setMenu ] = useState([]);
 
@@ -27,6 +26,7 @@ export const Home = () => {
             <hr></hr>
             
             <div> { menu } </div>
+           
         
           
         </>
